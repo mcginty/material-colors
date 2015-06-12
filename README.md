@@ -13,7 +13,7 @@ compile 'com.github.mcginty:material-colors:1.0.0'
 ###### See https://jitpack.io/#mcginty/material-colors/1.0.0 if you are unfamiliar with the structure of build.gradle files.
 
 ### use
-Color resource names are in the form of `material_<color><value>`, ex:
+Color resource names are in the form of `material_<colorname><colorvalue>`, ex:
 * XML: `@color/material_red500`, `@color/material_deeppurpleA200`
 * Java: `R.color.material_red500`, `R.color.material_deeppurpleA200`
 
