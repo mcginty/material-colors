@@ -14,8 +14,8 @@ compile 'com.github.mcginty:material-colors:1.0.0'
 
 ### use
 Color resource names are in the form of `material_<color><value>`, ex:
-* XML: `@color/material_red500`
-* Java: `R.color.material_red500`
+* XML: `@color/material_red500`, `@color/material_deeppurpleA200`
+* Java: `R.color.material_red500`, `R.color.material_deeppurpleA200`
 
 ### color names
 * red
