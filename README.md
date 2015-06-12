@@ -42,6 +42,6 @@ Color resource names are in the form of `material_<color><value>`, ex:
 ### color values
 *normal:* 50, 100, 200, 300, 400, 500, 600, 700, 800, 900
 
-*accent: * A100, A200, A400, A700
+*accent:* A100, A200, A400, A700
 
 (note that accent values don't exist for brown, grey, and bluegrey)
