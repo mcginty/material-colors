@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'android-maven'
 
-group = 'su.jake.materialcolors'
-version = '1.0'
+group = 'com.github.mcginty'
+version = '1.0.1'
 
 android {
   compileSdkVersion 22
@@ -11,8 +11,8 @@ android {
   defaultConfig {
     minSdkVersion 1
     targetSdkVersion 22
-    versionCode 1
-    versionName "1.0"
+    versionCode 2
+    versionName "1.0.1"
   }
   buildTypes {
     release {
