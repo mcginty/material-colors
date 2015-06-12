@@ -1,4 +1,8 @@
 apply plugin: 'com.android.library'
+apply plugin: 'android-maven'
+
+group = 'su.jake.materialcolors'
+version = '1.0'
 
 android {
   compileSdkVersion 22
@@ -18,6 +22,11 @@ android {
   }
 }
 
-dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
+task sourcesJar(type: Jar) {
+  from android.sourceSets.main.java.srcDirs
+  classifier = 'sources'
+}
+
+artifacts {
+  archives sourcesJar
 }
