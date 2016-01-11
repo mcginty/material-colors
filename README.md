@@ -8,9 +8,9 @@ maven {
 }
 ```
 ```
-compile 'com.github.mcginty:material-colors:1.0.1'
+compile 'com.github.mcginty:material-colors:1.1.0'
 ```
-###### See https://jitpack.io/#mcginty/material-colors/1.0.1 if you are unfamiliar with the structure of build.gradle files.
+###### See https://jitpack.io/#mcginty/material-colors/1.1.0 if you are unfamiliar with the structure of build.gradle files.
 
 ### use
 Color resource names are in the form of `material_<colorname><colorvalue>`, ex:
