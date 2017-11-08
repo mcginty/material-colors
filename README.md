@@ -8,7 +8,7 @@ maven {
 }
 ```
 ```
-compile 'com.github.mcginty:material-colors:1.1.0'
+implementation 'com.github.mcginty:material-colors:1.1.0'
 ```
 ###### See https://jitpack.io/#mcginty/material-colors/1.1.0 if you are unfamiliar with the structure of build.gradle files.
 
